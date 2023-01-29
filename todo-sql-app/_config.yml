@@ -1,0 +1,24 @@
+theme: jekyll-theme-minimal
+title: Kubernetes Hands-on
+updated: 26.1.2023
+show_downloads: False
+navigation:
+  - title: Overview
+    url: /
+  - title: 1. Prepare the environment
+    url: docs/lab1  
+  - title: 2. Deploy ToDo app
+    url: docs/lab2
+  - title: 3. Deploy MySQL
+    url: docs/lab3
+  - title: 4. Connect ToDo with MySQL using Environment Variables
+    url: docs/lab4
+  - title: 5. MySQL with Persistent Volumes
+    url: docs/lab5
+  - title: 6. Connect ToDo with MySQL using ConfigMap
+    url: docs/lab6
+  - title: 7. Connect ToDo with MySQL using ConfigMap and Secret
+    url: docs/lab7
+  - title:   8. Kubernetes Dashboard
+    url: docs/lab8
+

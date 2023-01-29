@@ -1,0 +1,12 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: mysql-config
+  labels:
+    app: todo  
+data:
+  MYSQL_PASSWORD: "secret"
+  MYSQL_DB: "todos"
+  MYSQL_HOST: "mysql"
+  MYSQL_USER: "root"
+
